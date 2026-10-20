@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "这是副的",
 
 	// 站点 URL
-	site_url: "https://my-blog.pages.dev",
+	site_url: "https://firefly.ayaseyukino555.workers.dev",
 
 	// 站点描述
 	description:
