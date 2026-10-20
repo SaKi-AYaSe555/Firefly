@@ -11,7 +11,7 @@ const pages = resolvePageToggles({
 	// ── 社交 (Social) ──────────────────────────────────
 
 	// 友链页面开关
-	friends: true,
+	friends: false,
 	// 留言板页面开关，需要配置评论系统
 	guestbook: true,
 
@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
 	title: "随心所欲",
 
 	// 站点副标题
-	subtitle: "这是副的",
+	subtitle: ".blog",
 
 	// 站点 URL
 	site_url: "https://firefly.ayaseyukino555.workers.dev",
@@ -117,7 +117,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly Blog",
+		title: "yukino Blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
